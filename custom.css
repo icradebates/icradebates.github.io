@@ -18,7 +18,8 @@ h4 + h5 {
 
 .content {
     margin: 0 auto;
-    max-width: 95%;
+    width: 95%;
+    max-width: 1600px;
     padding: 1em;
     border-top: 5px solid #742;
     border-bottom: 10px solid #742;
