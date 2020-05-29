@@ -2,9 +2,23 @@
     padding: 1em;
 }
 
+h4 + h5 {
+    font-weight: 100 !important;
+    margin-top:-0.25em;
+}
+.schedule ul ul {
+    margin: 0em;
+}
+
+.schedule li li {
+    font-size: 95%;
+    margin: 0.2em !important;
+    padding: 0!important;
+}
+
 .content {
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 95%;
     padding: 1em;
     border-top: 5px solid #742;
     border-bottom: 10px solid #742;
