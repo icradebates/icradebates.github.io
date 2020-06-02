@@ -4,7 +4,8 @@
 
 h4 + h5 {
     font-weight: 100 !important;
-    margin-top:-0.25em;
+    margin-top:-0.5em;
+    font-size: 125%;
 }
 .faq {
     background-color: #002b36;
@@ -26,17 +27,50 @@ h4 + h5 {
 }
 .schedule ul ul {
     margin: 0em;
+    padding-left: 0.5em;
 }
 .schedule ul {
-    padding-left: 1.5em;
+    padding-left: 0em;
+    font-size: 90%;
+    list-style: none;
 }
+.schedule li em {
+    font-weight:400;
+}
+/* .schedule li li:nth-of-type(1) {
+    list-style-type: "\2696";
+}
+.schedule li li:nth-of-type(2) {
+    list-style-type: "\1F44D";
+}
+.schedule li li:nth-of-type(3) {
+    list-style-type: "\1F44E";
+} */
 
 .schedule li li {
-    font-size: 95%;
+    font-size: 100%;
     margin: 0.2em !important;
-    padding: 0!important;
+    padding: 0.1em 1em !important; 
 }
-
+.schedule li span.for {
+    font-weight: normal;
+    background: #D9EAD3;
+    color: #158801;
+    padding: 2px;
+}
+.schedule li span.against {
+    font-weight: normal;
+    background: #CFE2F3;
+    color: #0067FF;
+    padding: 2px;
+}
+.schedule li span.moderator {
+    display:inline;
+    text-transform: none;
+    background: #eaeaea;
+    color: #222;
+    padding: 2px;
+}
 .content {
     margin: 0 auto;
     width: 96%;
