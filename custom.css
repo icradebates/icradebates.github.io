@@ -1,7 +1,12 @@
 .row {
     padding: 1em;
 }
-
+div#header {
+    border-bottom: 2px solid #eaeaea;
+}
+h1 + h2 {
+    font-size: 175% !important;
+}
 h4 + h5 {
     font-weight: 100 !important;
     margin-top:-0.5em;
