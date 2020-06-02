@@ -86,7 +86,10 @@ span.affiliation {
     color: #fff;
     text-decoration: underline;
 }
-
+.covid-box a:hover {
+    color: #fff;
+    text-decoration: none;
+}
 .previous-year {
     text-align: center;
 }
